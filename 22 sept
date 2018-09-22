@@ -1,0 +1,12 @@
+5 users in linux
+system user/ root user control to the system
+2.normal user created by super user
+3.system user - creating applications, software installation - -static system user id from 1 - 200
+  dynamic system users  - - - user id 201 - 999
+  normal  user 1000 - 60000
+4.network user -  remote user -- creating via network -- eg: ldap, nfs,
+
+
+   Type of user         examples        user id         groupid         home directory         default shell
+1. super user           root            0               0               /root                  /bin/bash
+2. normal user          mani           1000-60000      1000-60000       /home/mani             /bin/bash 
