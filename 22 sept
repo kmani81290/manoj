@@ -10,3 +10,23 @@ system user/ root user control to the system
    Type of user         examples        user id         groupid         home directory         default shell
 1. super user           root            0               0               /root                  /bin/bash
 2. normal user          mani           1000-60000      1000-60000       /home/mani             /bin/bash 
+3. system user          ftp,ssh,       1-499           1-499            /vat/ftp               /sbin/nologin
+4. network user         ldap           same as normal user              /home/guest/ldapuser
+5. sudo user            normal user with admin privileages/same as normal user                 /bin/bash
+
+what is the important points in the user
+1. user and groups are used to  control access to files and resources 
+2. users can lgin the system by supplying user name and password tpo the system
+3. every file onthe system owned by the user an associated with the group
+4. every processors as th owner and the group affilition 
+5. every usuers in the system is assigned as a unique user id and group id
+user id uid
+grp id gid
+
+6, user name and user id has stored in /etc/passwd file
+7.  user passwords has stored in /etc/shadow in encrypted form
+8, users ha assigned has the home directory /home and shell to work on OS
+9. user cannot read, rght, write, each others file
+10. whenver a user created a mail box create automatically in /var/spool/mail
+
+                        
