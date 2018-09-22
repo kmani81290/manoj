@@ -28,5 +28,7 @@ grp id gid
 8, users ha assigned has the home directory /home and shell to work on OS
 9. user cannot read, rght, write, each others file
 10. whenver a user created a mail box create automatically in /var/spool/mail
+11. <mani> : x : <uid> :  <gid> : <comment> : <user's home directory> : </bin/bash>
+
 
                         
