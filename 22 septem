@@ -31,4 +31,14 @@ grp id gid
 11. <mani> : x : <uid> :  <gid> : <comment> : <user's home directory> : </bin/bash>
 
 
+/etc/gshadow
+
+/etc/default/useradd
+whenever user created user default settings taken from the file
+
+
+
+
+
+
                         
