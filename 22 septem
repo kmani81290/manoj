@@ -32,9 +32,33 @@ grp id gid
 
 
 /etc/gshadow
+group password will be encrypted
 
 /etc/default/useradd
 whenever user created user default settings taken from the file
+
+how many ways can be create the users
+
+
+what is group?
+collection of users is called as group
+
+two types of groups
+primmary group
+     whenever creates user automatically create
+secondayry group
+     manually
+     
+     
+to check how user belongs to how many groups
+    groups mani
+    
+what is the sysntax to create the group
+
+groupadd <options> -f(force fully) groupname
+                   -g(
+
+
 
 
 
